@@ -8,7 +8,7 @@ class TextNode:
     An object for representing inline text objects from our Markdown files
     """
 
-    def __init__(self, text, text_type, url):
+    def __init__(self, text, text_type, url=None):
         self.text = text
         self.text_type = text_type
         self.url = url
